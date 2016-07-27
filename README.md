@@ -1,9 +1,9 @@
 #IO-Memory
-基于[WinIo](#winio)的一个可以读写IO/Memory的ReadWrite-Everything风格软件，使用vs2010编译的MFC程序。
+基于[WinIo](#winio)的一个可以读写IO/Memory的ReadWrite-Everything风格软件，使用vs2010编译的MFC程序
 ***
 <br>
 ##WinIo
-WinIO程序库允许在32位的Windows应用程序中直接对I/O端口和物理内存进行存取操作。通过使用一种内核模式的设备驱动器和其它几种底层编程技巧，它绕过了Windows系统的保护机制。 
+WinIO程序库允许在32位的Windows应用程序中直接对I/O端口和物理内存进行存取操作。通过使用一种内核模式的设备驱动器和其它几种底层编程技巧，它绕过了Windows系统的保护机制
 
 ###使用方法(http://www.internals.com/)
 * 进入操作系统的测试模式(打开cmd输入"bcdedit /set testsigning on")，之后将WinIo/Binaries下的WinIo32.dll和WinIo64.sys拷贝到应用程序所在同级目录  
@@ -45,5 +45,6 @@ WinIO程序库允许在32位的Windows应用程序中直接对I/O端口和物理
   ```
 
 ##io_memory
-![](./io_memory/Image/io_memory.png)
+![](./io_memory/Image/io_memory.png)  
+
 仿照RW的界面风格，可以读取4GB以内的内存和64KB的IO地址空间，使用时请注意关闭杀毒软件以防误删除.sys驱动文件，cpuid功能测试可以使用，具体代码还在实现中
