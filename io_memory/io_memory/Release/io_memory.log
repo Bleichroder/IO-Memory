@@ -1,0 +1,46 @@
+﻿生成启动时间为 2016/7/26 17:37:22。
+     1>项目“E:\IO_MEMORY\io_memory\io_memory\io_memory.vcxproj”在节点 2 上(build 个目标)。
+       项目文件包含 ToolsVersion="14.0" 设置，而此版本的 MSBuild 不支持该工具版本。该项目将视为包含 ToolsVersion="4.0" 设置。
+     1>InitializeBuildStatus:
+         正在对“Release\io_memory.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         e:\VS\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\io_memory.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\VS\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GlobalData.cpp Io_add.cpp io_memory.cpp io_memoryDlg.cpp Memory_add.cpp MyEdit.cpp SetMem.cpp SetMem_dword.cpp SetMem_word.cpp
+         GlobalData.cpp
+         Io_add.cpp
+         io_memory.cpp
+         io_memoryDlg.cpp
+         Memory_add.cpp
+         MyEdit.cpp
+         SetMem.cpp
+         SetMem_dword.cpp
+         SetMem_word.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0804" /IRelease\ /nologo /fo"Release\io_memory.res" io_memory.rc 
+       Link:
+         e:\VS\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\IO_MEMORY\io_memory\Release\io_memory.exe" /INCREMENTAL:NO /NOLOGO WinIo.lib /MANIFEST /ManifestFile:"Release\io_memory.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\IO_MEMORY\io_memory\Release\io_memory.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\IO_MEMORY\io_memory\Release\io_memory.lib" /MACHINE:X86 Release\io_memory.res
+         Release\GlobalData.obj
+         Release\Io_add.obj
+         Release\io_memory.obj
+         Release\io_memoryDlg.obj
+         Release\Memory_add.obj
+         Release\MyEdit.obj
+         Release\SetMem.obj
+         Release\SetMem_dword.obj
+         Release\SetMem_word.obj
+         Release\stdafx.obj
+         WinIo.lib
+         正在生成代码
+         已完成代码的生成
+         io_memory.vcxproj -> E:\IO_MEMORY\io_memory\Release\io_memory.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\IO_MEMORY\io_memory\Release\io_memory.exe;#1" /manifest Release\io_memory.exe.intermediate.manifest "e:\VS\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\io_memory.unsuccessfulbuild”。
+         正在对“Release\io_memory.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\IO_MEMORY\io_memory\io_memory\io_memory.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:41.44
