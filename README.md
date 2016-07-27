@@ -45,3 +45,5 @@ WinIO程序库允许在32位的Windows应用程序中直接对I/O端口和物理
   ```
 
 ##io_memory
+![](.io_memory/Image/io_memory.png)
+仿照RW的界面风格，可以读取4GB以内的内存和64KB的IO地址空间，使用时请注意关闭杀毒软件以防误删除.sys驱动文件，cpuid功能测试可以使用，具体代码还在实现中
