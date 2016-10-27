@@ -1,5 +1,5 @@
 #IO-Memory
-基于[WinIo](#winio)的一个可以读写IO/Memory的ReadWrite-Everything风格软件，使用vs2010编译的MFC程序
+A ReadWrite-Everything style test software based on [WinIO](#winio) which can read and write Computer memory and IO, need to enter testing mode under windows 7 or xp when use.
 ***
 <br>
 ##WinIo
